@@ -1,5 +1,5 @@
 title: Tech Summary Blog
-description: テック記事の要約ブログ
+description: テック記事の要約を日々お届けするブログ
 url: "https://tyamauchi-gao.github.io"
 baseurl: ""
 
@@ -7,6 +7,9 @@ theme: minima
 
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
+
+show_excerpts: true
+excerpt_separator: "---"
 
 defaults:
   - scope:
