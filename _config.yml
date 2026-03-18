@@ -1,0 +1,20 @@
+title: Tech Summary Blog
+description: テック記事の要約ブログ
+url: "https://tyamauchi-gao.github.io"
+baseurl: ""
+
+theme: minima
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
